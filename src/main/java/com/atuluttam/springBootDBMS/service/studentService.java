@@ -13,12 +13,11 @@ public class studentService {
 
 
 
-    
+
     public void storeindatabase(Student s)
     {
         System.out.println(sr.save(s) + "Number of records stored");
     }
-
 
 
 

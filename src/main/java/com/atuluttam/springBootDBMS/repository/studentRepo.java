@@ -14,11 +14,6 @@ public class studentRepo {
     public  int save(Student s)
     {
         String sql = "insert into student(roll, name, course)values(?, ?, ?)";
-
-
-
-
-
      int a =    jt.update(sql, s.getRoll(), s.getName(), s.getCourse());
      return a;
     }
